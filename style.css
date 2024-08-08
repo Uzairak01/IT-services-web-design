@@ -1,0 +1,47 @@
+.navbar {
+    transition: background-color 0.3s ease;
+}
+.navbar.navbarClr {
+    background-color: #343a40 !important; /* Bootstrap dark color */
+}
+
+nav .nav-items:hover{
+    color: #000;
+}
+
+.getstarted li{
+    list-style-type: none;
+    padding: 3px;
+}
+
+.card-custom {
+    position: relative;
+    padding-top: 80px; /* Adjust padding to accommodate the image */
+}
+.card-custom img {
+    position: absolute;
+    top: -30px; /* Adjust this value to move the image out of the card */
+    left: 50%;
+    transform: translateX(-40%);
+    width: 100px; /* Adjust the width as needed */
+    /* border: 5px solid white; Optional: add border to make it stand out */
+    transition: transform .4s ease-in-out;
+}
+
+.card-custom img:hover{
+    transform: translateX(-50%);
+}
+
+.orange{
+    color: orange;
+}
+.forcard:hover{
+    color: #343a40;
+}
+
+.image{
+    position: relative;
+    top: 24px;
+}
+
+  

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Solutions</title>
+    <link rel="icon" href="imgs/logo.webp" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-4 py-4 pt-3"
+    >
+      <div class="container-fluid">
+        <a href="#"
+          ><img
+            src="imgs/logo.webp"
+            alt=""
+            width="35px"
+            class="rounded-circle"
+            id="home"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#itConsltancy"
+                >IT Consltancy</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#digitalMarketing"
+                >Digital Marketing</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#services"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Inbound Links</a></li>
+                <li><hr class="dropdown-divider text-light" /></li>
+                <li><a class="dropdown-item" href="#">Outbound Links</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled text-light"
+                href="#contact"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar background-->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" id="home">
+        <div class="carousel-item active">
+          <img src="imgs/background1.jpg" class="d-block w-100" />
+          <div class="carousel-caption d-none d-md-block">
+            <p style="font-size: 30px">
+              Cutting-Edge IT Solutions, Outstanding Web Development
+            </p>
+            <h1>
+              Turning Visions into Reality: <br />
+              IT Solutions & Web Development
+            </h1>
+            <p>
+              We’re the number one Digital Agency, dedicated to skyrocketing
+              your sales and keeping you ahead of the competition globally.
+            </p>
+            <div>
+              <button type="button" class="btn btn-outline-warning btn-lg">
+                Get a Quote <i class="bi bi-quote"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-warning btn-lg"
+                data-bs-toggle="tooltip"
+                data-bs-title="Lets have a little chat"
+              >
+                Let's Chat <i class="bi bi-chat-dots"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Services cards-->
+    <div class="row m-4">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="bi bi-search-heart p-3"></i> Improved SEO Ranking
+            </h5>
+            <p class="card-text">
+              Boost your business 20X and increase visitors, leads, and revenue.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-warning">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="bi bi-browser-edge p-4"></i>Web Development
+            </h5>
+            <p class="card-text">
+              Business-driven design and development aimed at attracting
+              customers.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-warning">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              <i class="bi bi-laptop p-4"></i>Digital Marketing
+            </h5>
+            <p class="card-text">
+              Expand your organic reach and boost for your sales and revenue.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-warning">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--main web articals-->
+    <main>
+      <!--hero section-->
+      <div class="container-fluid mt" id="digitalMarketing">
+        <div class="card mb-3">
+          <div class="row" id="itConsltancy">
+            <div class="col-md">
+              <img src="imgs/image-1.webp" class="img-fluid" />
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <h5 class="card-title">FEATURED SERVICES</h5>
+                <h2 class="" style="color: rgba(240, 168, 13, 0.822)">
+                  Wide Range of Marketing Services
+                </h2>
+                <p class="card-text pt-4">
+                  “We are a results-driven digital marketing agency providing
+                  top-tier services. Our significant growth over time has
+                  transformed us into a multinational firm offering a
+                  comprehensive range of solutions.”
+                </p>
+                <h5
+                  class="p-3"
+                  style="
+                    background-color: rgb(71, 118, 248);
+                    color: #fff;
+                    width: 250px;
+                    border-radius: 4px;
+                  "
+                >
+                  Let's Build your Success
+                </h5>
+                <p style="border-bottom: 3px solid rgb(71, 118, 248)"></p>
+                <ul class="getstarted">
+                  <li>
+                    <i class="bi bi-browser-chrome"></i>&nbsp; Web Development
+                  </li>
+                  <li><i class="bi bi-tv"></i>&nbsp; Digital Marketing</li>
+                  <li>
+                    <i class="bi bi-graph-up-arrow"></i>&nbsp; Lead Generation
+                  </li>
+                  <li>
+                    <i class="bi bi-camera-video"></i> &nbsp; Explainer Video
+                  </li>
+                  <li>
+                    <i class="bi bi-laptop"></i>&nbsp; Search Engine
+                    Optimization
+                  </li>
+                  <li>
+                    <i class="bi bi-arrows-move"></i>&nbsp; Social Media
+                    Management
+                  </li>
+                </ul>
+              </div>
+              <div class="d-flex justify-content-center pt-4">
+                <a
+                  href="#"
+                  class="btn btn-outline-warning btn-border-radius-lg p-3"
+                  >Get Started -></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="featuredServices d-flex justify-content-center mt-5">
+        <h1>
+          <span style="color: rgba(240, 168, 13, 0.822)">Featured</span>
+          Services
+        </h1>
+      </div>
+
+      <!--services cards-->
+      <div class="container-fluid">
+        <!--grid format for services cards-->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-4">
+          <!--1-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon1.svg" class="card-img-top" alt="" />
+                </div>
+                <h5 class="card-title orange forcard">Web Development</h5>
+                <p class="card-text">
+                  Exceptional website design & development services to set you
+                  apart from the rest of websites.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon2.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">App Development</h5>
+                <p class="card-text">
+                  Delight your users with expressive, feature-rich native iOS
+                  and Android web solutions and services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon3.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">Lead generation</h5>
+                <p class="card-text">
+                  Unleash your business spirit with a knockout compilation of
+                  top-tier leads and expand your organic reach.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon4.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">SEO</h5>
+                <p class="card-text">
+                  Elevate your website’s search engine ranking & enhance online
+                  visibility. Let’s achieve a 20X boost in business & sales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-5">
+          <!--1-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon5.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">Google Ads</h5>
+                <p class="card-text">
+                  Optimize your presence on local search engine results pages &
+                  generate the greatest ROI.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon6.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">Youtube Ads</h5>
+                <p class="card-text">
+                  Harness the power of engaging platforms to drive revenue with
+                  the assistance of our team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon7.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">Facebook Ads</h5>
+                <p class="card-text">
+                  Expand your brand, reach customers, & drive sales with our
+                  Facebook & Instagram ads services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-md-3">
+            <div
+              class="card h-100 text-center border-0 shadow card-custom mt-4"
+            >
+              <div class="card-body">
+                <div class="card-icon mb-3">
+                  <img src="imgs/icon8.svg" alt="" class="card-img-top" />
+                </div>
+                <h5 class="card-title orange forcard">Linkdin Ads</h5>
+                <p class="card-text">
+                  Generate more revenue & reach the right audience. We guarantee
+                  the return on investment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why chose us -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <h1 class="mt-3 text-warning fw-bold">Why Choose Us</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+              <h4 class="fw-bold">
+                We bring years of experience and industry knowledge to your
+                project
+              </h4>
+            </div>
+            <div class="pt-3">
+              <p class="fw-semibold">
+                We’re proud to be recognized as a leader in the digital
+                marketing industry. Since 2010, we’ve empowered thousands of
+                local and international businesses across diverse sectors to
+                maximize their online revenue through growth-driven digital
+                marketing strategies.
+              </p>
+              <p class="fw-semibold">
+                To ensure our clients’ success, we stay abreast of the latest
+                trends and innovations, experimenting with various marketing
+                tactics and rigorously testing them in our internal campaigns to
+                pinpoint the strategies that deliver optimal results.
+              </p>
+              <p class="fw-semibold">
+                Our track record in lead generation speaks for itself. Nearly
+                all our leads are generated by our expert in-house marketing
+                team through organic search results.
+              </p>
+              <p class="fw-semibold">
+                In 2020, we achieved the top spot among all digital marketing
+                companies in the United States for first-page Google search
+                results, as per an independent SEO market-share analysis
+                conducted by SEO. As pioneers in SEO, we continuously refine our
+                processes to help more brands attain greater search visibility.
+              </p>
+              <p class="fw-semibold">
+                Thanks to the dedication and perseverance of our team, we
+                experienced remarkable growth in 2021.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- expandable tabs FAQ -->
+      <div class="container px-4">
+        <div class="accordian mt-5">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It
+                  is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- customer reviews -->
+      <div class="container-fluid">
+        <div class="customerReviews text-center mt-5">
+          <h4 class="text-warning fw-bold">Customer Reviews</h4>
+          <h1 class="">Don’t Just Take Our Word For It</h1>
+        </div>
+        <!-- carousel -->
+        <div class="container mt-4">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- cards -->
+                <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="image">
+                          <img src="imgs/person.svg" width="40px">
+                        </div>
+                        <h5 class="card-title text-center">Customer Name</h5>
+                        <p class="card-text">
+                          I am very happy about there services and mzze dr Lorem
+                          ipsum dolor sit amet consectetur adipisicing elit.
+                          Molestias, quod, tempora totam, soluta omnis et
+                          asperiores corporis possimus ducimus repudiandae
+                          expedita iure. Nesciunt, est recusandae laudantium
+                          voluptatum nemo aliquam voluptate?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="image">
+                          <img src="imgs/person.svg" width="40px">
+                        </div>
+                        <h5 class="card-title text-center">Customer Name</h5>
+                        <p class="card-text">
+                          Very quick service Lorem ipsum dolor, sit amet
+                          consectetur adipisicing elit. Debitis tenetur
+                          molestiae dicta consectetur commodi vitae alias est
+                          provident officia asperiores culpa, accusantium
+                          nesciunt ea, tempore illum quidem dolor quasi sit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="image">
+                          <img src="imgs/person.svg" width="40px">
+                        </div>
+                        <h5 class="card-title text-center">Customer Name</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Deserunt consectetur quia voluptates provident
+                          quidem aliquam iusto! Soluta nisi sint omnis, illo
+                          amet tempora, enim ipsa ipsam, vel inventore quis
+                          itaque?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="image">
+                          <img src="imgs/person.svg" width="40px">
+                        </div>
+                        <h5 class="card-title text-center">Customer Name</h5>
+                        <p class="card-text">
+                          web side si ha Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Aliquam fuga amet maxime quisquam
+                          consectetur velit ullam dolorum adipisci a, magnam vel
+                          voluptatem dolores quia ex placeat quo. Tempore,
+                          fugiat necessitatibus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgb(0, 0, 0);">
+    © 2024 Copyright | All right recieved | Designed by <a href="#">UAK Codes</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
